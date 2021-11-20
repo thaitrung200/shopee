@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+    <!-- <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize-opentype.css/0.2.3/normalize-opentype.min.css" integrity="sha512-0i+Cj480FEdmxsDzL2o0Uj5UEA3Z27RTCP1DZrgJpuIZe6oRbfDA35LCTFyZIRz6WFmRtEleAcDwAip0MhcEsA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="container">
+                <div class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="list__item list__item--separate">
+                            Vào cửa hàng trong ứng dụng Shopee
+                            <div class="header__qr">
+                                <img src="./assets/image/qr_code.png" alt="" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="qr-app-link">
+                                        <img src="./assets/image/appstore.png" alt="" class="app__img">
+                                    </a>
+                                    <a href="" class="qr-app-link">
+                                        <img src="./assets/image/googleplay.png" alt="" class="app__img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list__item list__item--nopointer">Kết nối 
+                            <a href="" class="list__item-icon">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="list__item-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </i></li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="list__item">
+                            <a href="" class="list__item-link">
+                                <i class=" far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <!-- Header Notifi -->
+                            <div class="header__notifi">
+                                <h3 class="header__notifi-heading">Thông báo mới nhận</h3>
+                                <ul class="header__notifi-list">
+                                    <li class="notifi-item">
+                                            <img src="./assets/image/notifi.png" alt="" class="notifi-img">
+                                            <div class="notifi-info">
+                                                <p class="notifi-info-name">Ngày hội thành viên linh đình quà tặng</p>
+                                                <p class="notifi-info-des">🕘 9H: Mã giảm tới 60K đơn 0Đ 🕛 12H: Mã hoàn tối đa 100K Xu đơn 0Đ
+                                                    🎁 Hộp quà thương hiệu giảm tới 50%</p>
+                                            </div>
+                                    </li>
+                                    <li class="notifi-item">
+                                        <img src="./assets/image/notifi.png" alt="" class="notifi-img">
+                                        <div class="notifi-info">
+                                            <p class="notifi-info-name">Ngày hội thành viên linh đình quà tặng</p>
+                                            <p class="notifi-info-des">🕘 9H: Mã giảm tới 60K đơn 0Đ 🕛 12H: Mã hoàn tối đa 100K Xu đơn 0Đ
+                                                🎁 Hộp quà thương hiệu giảm tới 50%</p>
+                                        </div>
+                                    </li>
+                                    <li class="notifi-item">
+                                    <img src="./assets/image/notifi.png" alt="" class="notifi-img">
+                                    <div class="notifi-info">
+                                        <p class="notifi-info-name">Ngày hội thành viên linh đình quà tặng</p>
+                                        <p class="notifi-info-des">🕘 9H: Mã giảm tới 60K đơn 0Đ 🕛 12H: Mã hoàn tối đa 100K Xu đơn 0Đ
+                                            🎁 Hộp quà thương hiệu giảm tới 50%</p>
+                                    </div>
+                                    </li>
+                                </ul>
+                                <footer class="notifi-footer">
+                                    <a href="" class="notifi-footer-link ">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="list__item">
+                            <a href="" class="list__item-link">
+                                <i class=" far fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="list__item list__item--separate">Đăng kí</li>
+                        <li class="list__item">Đăng nhập</li>
+                    </ul>
+                </div>
+                <!-- Header Search -->
+                <div class="header-with-search">
+                    <div class="row  align-items-center">
+                        <div class="col-lg-2">
+                            <div class="header__logo">
+                                <a href="" class="header__logo-link">
+                                    <img src="./assets/image/logo.jpg" alt="" class="header__logo-img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="header__search">
+                                <!-- Header history -->
+                                <div class="header__search-wrap">
+                                    <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+                                    <ul class="header__search-history">
+                                        <li class="search-history-item">Điện thoại & phụ kiện</li>
+                                        <li class="search-history-item">Máy tính & laptop</li>
+                                        <li class="search-history-item">Đồng hồ</li>
+                                    </ul>
+                                </div>
+                                <div class="header__search-select">
+                                    Trong Shop
+                                    <i class="fas fa-angle-down"></i>
+                                    <!-- Option -->
+                                    <ul class="header__search-option">
+                                        <li class="search-item">
+                                            Trong Shop
+                                            <i class="fas fa-check"></i>
+                                        </li>
+                                        <li class="search-item">
+                                            Ngoài Shop
+                                            <i class="fas fa-check"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <button type="button" class="header__search-btn">
+                                    <i class="search-btn-icon fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="header__cart">
+                                <a href="" class="header__cart-link">
+                                    <i class="header__cart-icon fas fa-shopping-cart"></i>
+                                </a>
+                                <div class="header__cart-wrap">
+                                    <div class="header__cart-img">
+                                        <img src="./assets/image/no-cart.png" alt="" class="cart-img">
+                                    </div>
+                                    <p class="header__cart-text">Chưa có sản phẩm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-2 ">
+                        <div class="category">
+                            <div class="category__heading">
+                                <i class="category__heading-icon fas fa-list"></i>
+                                Danh Mục
+                            </div>
+                            <ul class="category__list">
+                                <li class="category__list-item">
+                                    <a href="" class="category__list-link ">Thiết bị điện tử</a>
+                                </li>
+                                <li class="category__list-item">
+                                    <a href="" class="category__list-link">Thiết bị đeo thông minh</a>
+                                </li><li class="category__list-item">
+                                    <a href="" class="category__list-link">Phụ kiện tivi</a>
+                                </li><li class="category__list-item">
+                                    <a href="" class="category__list-link">Máy chơi game </a>
+                                </li><li class="category__list-item">
+                                    <a href="" class="category__list-link">Tai nghe</a>
+                                </li>
+                            </li><li class="category__list-item">
+                                <a href="" class="category__list-link">
+                                    Thêm
+                                    <i class="fas fa-chevron-down list-link-icon"></i>
+                                </a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="shopee__search">
+                            <div class="shopee__sort">
+                                <span class="shopee__sort-text">Sắp xếp theo</span>
+                                <button class=" shopee__sort-btn btn--active">Phổ biến</button>
+                                <button class=" shopee__sort-btn">Mới nhất</button>
+                                <button class=" shopee__sort-btn">Bán chạy</button>
+                                <div class="search__select">
+                                    <span class="search__select-lable">Giá
+                                        
+                                    </span>
+                                    <i class="fas fa-chevron-down select-lable-icon"></i>
+                                    <div class="search__select-option">
+                                        <ul class="search__select-list">
+                                            <li class="select-list-item">Giá: Thấp đến cao</li>
+                                            <li class="select-list-item">Giá: Cao đến thấp</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shopee__page">
+                                <div class="page-number">
+                                   <span class="page-number-first">1</span>
+                                   <span>/8</span>
+                                </div> 
+                                <div class="page__control">
+                                    <a href="" class="control-link">
+                                        <i class="fas fa-chevron-left control-link-icon"></i>
+                                    </a>
+                                    <a href="" class="control-link">
+                                        <i class="fas fa-chevron-right control-link-icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product -->
+                        <div class="product">
+                            <div class="row">
+                              <div class="col-lg-2dot4">
+                                  <div class="product__item">
+                                    <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                        <div class="product__item-like">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product__item-sale">
+                                            <span class="sale-percent">30%</span>
+                                            <span class="sale-text">Giảm</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                    <div class="product__item-price">
+                                        <div class="price-old">150.000đ</div>
+                                        <div class="price-present">99.999đ</div>
+                                    </div>
+                                    <div class="product__item-action">
+                                        <div class="action-heart">
+                                            <i class="far fa-heart"></i>
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                        </div>
+                                        <div class="action-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="action-sell">Đã bán 88</div>
+                                    </div>
+                                    <div class="product__item-adr">Hà Nội</div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-2dot4">
+                                <div class="product__item">
+                                  <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                      <div class="product__item-like">
+                                          <i class="fas fa-check"></i>
+                                          <span>Yêu thích</span>
+                                      </div>
+                                      <div class="product__item-sale">
+                                          <span class="sale-percent">30%</span>
+                                          <span class="sale-text">Giảm</span>
+                                      </div>
+                                  </div>
+                                  <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                  <div class="product__item-price">
+                                      <div class="price-old">150.000đ</div>
+                                      <div class="price-present">99.999đ</div>
+                                  </div>
+                                  <div class="product__item-action">
+                                      <div class="action-heart">
+                                          <i class="far fa-heart"></i>
+                                          <!-- <i class="fas fa-heart"></i> -->
+                                      </div>
+                                      <div class="action-star">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                      <div class="action-sell">Đã bán 88</div>
+                                  </div>
+                                  <div class="product__item-adr">Hà Nội</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2dot4">
+                                <div class="product__item">
+                                  <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                      <div class="product__item-like">
+                                          <i class="fas fa-check"></i>
+                                          <span>Yêu thích</span>
+                                      </div>
+                                      <div class="product__item-sale">
+                                          <span class="sale-percent">30%</span>
+                                          <span class="sale-text">Giảm</span>
+                                      </div>
+                                  </div>
+                                  <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                  <div class="product__item-price">
+                                      <div class="price-old">150.000đ</div>
+                                      <div class="price-present">99.999đ</div>
+                                  </div>
+                                  <div class="product__item-action">
+                                      <div class="action-heart">
+                                          <i class="far fa-heart"></i>
+                                          <!-- <i class="fas fa-heart"></i> -->
+                                      </div>
+                                      <div class="action-star">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                      <div class="action-sell">Đã bán 88</div>
+                                  </div>
+                                  <div class="product__item-adr">Hà Nội</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2dot4">
+                                <div class="product__item">
+                                  <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                      <div class="product__item-like">
+                                          <i class="fas fa-check"></i>
+                                          <span>Yêu thích</span>
+                                      </div>
+                                      <div class="product__item-sale">
+                                          <span class="sale-percent">30%</span>
+                                          <span class="sale-text">Giảm</span>
+                                      </div>
+                                  </div>
+                                  <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                  <div class="product__item-price">
+                                      <div class="price-old">150.000đ</div>
+                                      <div class="price-present">99.999đ</div>
+                                  </div>
+                                  <div class="product__item-action">
+                                      <div class="action-heart">
+                                          <i class="far fa-heart"></i>
+                                          <!-- <i class="fas fa-heart"></i> -->
+                                      </div>
+                                      <div class="action-star">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                      <div class="action-sell">Đã bán 88</div>
+                                  </div>
+                                  <div class="product__item-adr">Hà Nội</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2dot4">
+                                <div class="product__item">
+                                  <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                      <div class="product__item-like">
+                                          <i class="fas fa-check"></i>
+                                          <span>Yêu thích</span>
+                                      </div>
+                                      <div class="product__item-sale">
+                                          <span class="sale-percent">30%</span>
+                                          <span class="sale-text">Giảm</span>
+                                      </div>
+                                  </div>
+                                  <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                  <div class="product__item-price">
+                                      <div class="price-old">150.000đ</div>
+                                      <div class="price-present">99.999đ</div>
+                                  </div>
+                                  <div class="product__item-action">
+                                      <div class="action-heart">
+                                          <i class="far fa-heart"></i>
+                                          <!-- <i class="fas fa-heart"></i> -->
+                                      </div>
+                                      <div class="action-star">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                      <div class="action-sell">Đã bán 88</div>
+                                  </div>
+                                  <div class="product__item-adr">Hà Nội</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2dot4">
+                                <div class="product__item">
+                                  <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                      <div class="product__item-like">
+                                          <i class="fas fa-check"></i>
+                                          <span>Yêu thích</span>
+                                      </div>
+                                      <div class="product__item-sale">
+                                          <span class="sale-percent">30%</span>
+                                          <span class="sale-text">Giảm</span>
+                                      </div>
+                                  </div>
+                                  <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                  <div class="product__item-price">
+                                      <div class="price-old">150.000đ</div>
+                                      <div class="price-present">99.999đ</div>
+                                  </div>
+                                  <div class="product__item-action">
+                                      <div class="action-heart">
+                                          <i class="far fa-heart"></i>
+                                          <!-- <i class="fas fa-heart"></i> -->
+                                      </div>
+                                      <div class="action-star">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                      <div class="action-sell">Đã bán 88</div>
+                                  </div>
+                                  <div class="product__item-adr">Hà Nội</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2dot4">
+                                <div class="product__item">
+                                  <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                      <div class="product__item-like">
+                                          <i class="fas fa-check"></i>
+                                          <span>Yêu thích</span>
+                                      </div>
+                                      <div class="product__item-sale">
+                                          <span class="sale-percent">30%</span>
+                                          <span class="sale-text">Giảm</span>
+                                      </div>
+                                  </div>
+                                  <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                  <div class="product__item-price">
+                                      <div class="price-old">150.000đ</div>
+                                      <div class="price-present">99.999đ</div>
+                                  </div>
+                                  <div class="product__item-action">
+                                      <div class="action-heart">
+                                          <i class="far fa-heart"></i>
+                                          <!-- <i class="fas fa-heart"></i> -->
+                                      </div>
+                                      <div class="action-star">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                      <div class="action-sell">Đã bán 88</div>
+                                  </div>
+                                  <div class="product__item-adr">Hà Nội</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2dot4">
+                                <div class="product__item">
+                                  <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                      <div class="product__item-like">
+                                          <i class="fas fa-check"></i>
+                                          <span>Yêu thích</span>
+                                      </div>
+                                      <div class="product__item-sale">
+                                          <span class="sale-percent">30%</span>
+                                          <span class="sale-text">Giảm</span>
+                                      </div>
+                                  </div>
+                                  <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                  <div class="product__item-price">
+                                      <div class="price-old">150.000đ</div>
+                                      <div class="price-present">99.999đ</div>
+                                  </div>
+                                  <div class="product__item-action">
+                                      <div class="action-heart">
+                                          <i class="far fa-heart"></i>
+                                          <!-- <i class="fas fa-heart"></i> -->
+                                      </div>
+                                      <div class="action-star">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                      <div class="action-sell">Đã bán 88</div>
+                                  </div>
+                                  <div class="product__item-adr">Hà Nội</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2dot4">
+                                <div class="product__item">
+                                  <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                      <div class="product__item-like">
+                                          <i class="fas fa-check"></i>
+                                          <span>Yêu thích</span>
+                                      </div>
+                                      <div class="product__item-sale">
+                                          <span class="sale-percent">30%</span>
+                                          <span class="sale-text">Giảm</span>
+                                      </div>
+                                  </div>
+                                  <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                  <div class="product__item-price">
+                                      <div class="price-old">150.000đ</div>
+                                      <div class="price-present">99.999đ</div>
+                                  </div>
+                                  <div class="product__item-action">
+                                      <div class="action-heart">
+                                          <i class="far fa-heart"></i>
+                                          <!-- <i class="fas fa-heart"></i> -->
+                                      </div>
+                                      <div class="action-star">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                      <div class="action-sell">Đã bán 88</div>
+                                  </div>
+                                  <div class="product__item-adr">Hà Nội</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2dot4">
+                                <div class="product__item">
+                                  <div class="product__item-img" style="background-image: url(https://cf.shopee.vn/file/7556e874cf766f3cb340e632c684def1_tn);">
+                                      <div class="product__item-like">
+                                          <i class="fas fa-check"></i>
+                                          <span>Yêu thích</span>
+                                      </div>
+                                      <div class="product__item-sale">
+                                          <span class="sale-percent">30%</span>
+                                          <span class="sale-text">Giảm</span>
+                                      </div>
+                                  </div>
+                                  <h3 class="product__item-name">Tai nghe Bluetooth i12 TWS 5.0 tai nghe không dây i12 bản Quốc tế âm thanh chuẩn HIFI</h3>
+                                  <div class="product__item-price">
+                                      <div class="price-old">150.000đ</div>
+                                      <div class="price-present">99.999đ</div>
+                                  </div>
+                                  <div class="product__item-action">
+                                      <div class="action-heart">
+                                          <i class="far fa-heart"></i>
+                                          <!-- <i class="fas fa-heart"></i> -->
+                                      </div>
+                                      <div class="action-star">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                      <div class="action-sell">Đã bán 88</div>
+                                  </div>
+                                  <div class="product__item-adr">Hà Nội</div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- Page Control -->
+                        <ul class="pagecontrol">
+                            <li class="pagecontrol__item">
+                                <a href="" class="pagecontrol__item-link">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagecontrol__item">
+                                <a href="" class="pagecontrol__item-link pagecontrol__item-link--active"> 1</a>
+                            </li>
+                            <li class="pagecontrol__item">
+                                <a href="" class="pagecontrol__item-link"> 2</a>
+                            </li>
+                            <li class="pagecontrol__item">
+                                <a href="" class="pagecontrol__item-link"> 3</a>
+                            </li>
+                            <li class="pagecontrol__item">
+                                <a href="" class="pagecontrol__item-link"> 4</a>
+                            </li>
+                            <li class="pagecontrol__item">
+                                <a href="" class="pagecontrol__item-link"> 5</a>
+                            </li>
+                            <li class="pagecontrol__item">
+                                <a href="" class="pagecontrol__item-link"> ...</a>
+                            </li>
+                            <li class="pagecontrol__item">
+                                <a href="" class="pagecontrol__item-link">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2dot4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__info">
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Shopee Blog</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Shopee Mall</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Hướng dẫn bán hàng</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Thanh toán</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Shopee xu</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Vận chuyển</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Trả hàng & Hoàn tiền</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Chăm sóc khách hàng</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Chính sách bảo hành</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2dot4">
+                        <h3 class="footer__heading">Về Shopee</h3>
+                        <ul class="footer__info">
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Giới thiệu về Shopee Việt Nam</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Điều khoản Shopee</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Chính sách bảo mật</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Chính hãng</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Kênh người bán</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Flash Sales</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Chương trình tiếp thị</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="" class="footer__info-link">Liên hệ với truyền thông</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2dot4">
+                        <h3 class="footer__heading">Thanh toán</h3>
+                        <ul class="footer__pay">
+                            <li class="footer__pay-item " >
+                                <img src="./assets/image/visa.jpg" alt="" class="footer__pay-img">
+                            </li>
+                            <li class="footer__pay-item " >
+                                <img src="./assets/image/visa.jpg" alt="" class="footer__pay-img">
+                            </li>
+                            <li class="footer__pay-item " >
+                                <img src="./assets/image/visa.jpg" alt="" class="footer__pay-img">
+                            </li>
+                        </ul>
+                        <h3 class="footer__heading">Đơn vị vận chuyển</h3>
+                        <ul class="footer__pay">
+                            <li class="footer__pay-item " >
+                                <img src="./assets/image/vietelpost.png" alt="" class="footer__pay-img">
+                            </li>
+                            <li class="footer__pay-item " >
+                                <img src="./assets/image/vietelpost.png" alt="" class="footer__pay-img">
+                            </li>
+                            <li class="footer__pay-item " >
+                                <img src="./assets/image/vietelpost.png" alt="" class="footer__pay-img">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2dot4">
+                        <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+                        <ul class="footer__social">
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <i class="fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <i class="fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                    Linkedln
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2dot4">
+                        <h3 class="footer__heading">Tải ứng dụng Shopee </h3>
+                        <div class="footer__app">
+                            <a href="" class="footer__app-qr">
+                                <img src="./assets/image/qr_code.png" alt="" class="footer-qr-img">
+                            </a>
+                            <div class="footer__app-list">
+                                <a href="" class="footer__app-link">
+                                    <img src="./assets/image/appstore.png" alt="" class="footer-link-img">
+                                </a>
+                                <a href="" class="footer__app-link">
+                                    <img src="./assets/image/googleplay.png" alt="" class="footer-link-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
